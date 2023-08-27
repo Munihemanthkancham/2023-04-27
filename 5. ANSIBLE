@@ -14,7 +14,7 @@ ex: servers, vpc, asg, elb -----
 
 SETUP:
 ALL SERVERS: to communicate with all servers
-hostnamectl set-hostname
+ sudo hostnamectl set-hostname
 sudo -i
 passwd root
 vim /etc/ssh/sshd_config
